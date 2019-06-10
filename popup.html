@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            width: 380px;
+        } 
+        #clock {
+            top: 10px;
+            left: 40px;
+            width: 280px;
+            height: 280px;
+        }
+        #switch {
+            position: relative;
+            width: 75%;
+            left: 20px;
+        }
+        .reset{
+            left: 10%;
+            top: 20px;
+        }
+        .title {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class = "title">
+        Pomodoro Clock  
+    </h1>
+    <div id="switch">
+        <div class="break"><h3>Break Time</h3>
+            <div class="decrease">-</div>
+            <div class="breakTime">5</div>
+            <div class="increase">+</div>
+        </div>
+        <div class="session"><h3> Session Time</h3>
+            <div class="decrease">-</div>
+            <div class="sessionTime">25</div>
+            <div class="increase">+</div>
+        </div>
+    </div>
+    <div id="clock">
+        <div id="display">
+        Session <br/>
+        <div id = "time">
+        </div>
+        </div>
+    </div>
+    <button class = "reset">Reset</buttton>
+    <script  src="js/index.js"></script>
+</body>
+</html>
+  
+  
+
+    
+

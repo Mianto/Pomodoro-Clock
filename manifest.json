@@ -1,0 +1,22 @@
+{
+    "name": "Pomodoro Clock",
+    "version": "1.0",
+    "description": "Pomodoro timer designed to use the pomodoro technique",
+    "manifest_version": 2,
+    "author": "Siddhant Shaw",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/img16.png",            
+            "32": "images/img32.png",            
+            "48": "images/img64.png",            
+            "128": "images/img128.png"        
+            }    
+        },    
+        "icons": {
+            "16": "images/img16.png",
+            "32": "images/img32.png",
+            "48": "images/img64.png",
+            "128": "images/img128.png"
+        }
+  }
